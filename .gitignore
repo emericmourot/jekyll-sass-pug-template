@@ -1,7 +1,47 @@
+# Don't commit system files or dependencies
+# Ensure Jekyll builds aren't committed to Git
+
+# Jekyll
 _site
-.sass-cache
-_src/.jekyll-cache
 .jekyll-cache
+_src/.jekyll-cache
 .jekyll-metadata
+.sass-cache
 .pug-cache
+public/
+site/public/
+dist/
+.tmp/
+_asset_bundler_cache
 vendor
+
+# Ruby
+.bundle/
+.byebug_history
+.ruby-gemset
+.ruby-version
+*.gem
+Gemfile.lock
+
+# Files
+.analysis
+.DS_Store
+*.swp
+*~
+
+# Folders
+/vendor
+bbin/
+bin/
+coverage
+gh-pages/
+pkg/
+test/dest
+tmp/*
+_build/
+node_modules/
+npm-debug.log*
+
+# Projects
+*.sublime-project
+*.sublime-workspace
