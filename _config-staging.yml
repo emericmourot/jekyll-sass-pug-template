@@ -1,0 +1,14 @@
+# Staging server config
+# This config is only used for the development server
+# No settings provided here will affect production builds
+
+url: https://staging.url
+host: 0.0.0.0
+port: 8080
+
+# Folders and files to include
+# include:
+#   - docs
+
+sass:
+  style: nested # possible values: nested expanded compact compressed

@@ -1,0 +1,17 @@
+# Development server config
+# This config is only used for the development server
+# No settings provided here will affect production builds
+
+url: http://dev.url
+host: localhost
+port: 4000
+
+jekyll-pug:
+  debug: true
+
+# Folders and files to include
+# include:
+#   - _docs
+
+sass:
+  style: expanded # possible values: nested expanded compact compressed
