@@ -15,3 +15,9 @@ To compile the sources into _site and update preview in http://localhost:4000
 
 ```bundle exec jekyll serve```
 
+## Use
+
+### No index 
+Automatic site map generation with jekyll-sitemap plugin.
+Pages with sitemap set to false in front matter are not included in sitemap.xml and a noindex, nofollow is added to head. This is also true for web site under development (if JEKYLL_ENV is not explicitly set to production).
+

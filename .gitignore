@@ -1,5 +1,6 @@
 _site
 .sass-cache
+_src/.jekyll-cache
 .jekyll-cache
 .jekyll-metadata
 .pug-cache

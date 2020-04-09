@@ -3,3 +3,10 @@ head
   meta(http-equiv='X-UA-Compatible', content='IE=edge')
   meta(name='viewport', content='width=device-width, initial-scale=1')
   link(href="/assets/css/main.css", rel="stylesheet", type="text/css")
+
+  //- Indexation Stuff 
+  | {%- if jekyll.environment != 'production' or page.sitemap == false %}
+  meta(name="robots", content="noindex,nofollow")
+  | {%- else %}
+  meta(name="robots", content="all")
+  | {%- endif %}
